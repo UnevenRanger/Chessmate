@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+    <!--Character Set-->
+    <meta charset="utf-8" />
+
+    <!--Page Title-->
+    <title>ChessMate</title>
+
+    <!--Install Bootstap-->
+    <link href="Bootstrap/bootstrap.min.css" rel="stylesheet"/>
+
+    <!--Cascading Style Sheet Reference-->
+    <link href="CSS/style.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+
+    <div class="container-fluid homepage">
+
+
+        <div class="row">
+
+            <div class="col-md-1 left-menu">
+                
+                <div class="row">
+                    <div class="col left-menu-item">Sign In</div>
+                </div>
+
+                <div class="row">
+                    <div class="col left-menu-item">Sign Up</div>
+                </div>
+
+                <div class="row">
+                    <div class="col left-menu-item" type="button" id="gameButton" onclick=window.location.href="chessGame.html" >Take a Seat</div>
+                </div>
+
+            </div>
+
+            <div class="col-md-10 embed-responsive embed-responsive-16by9""> 
+                <video class="embed-responsive-item" playsinline autoplay muted loop id="homepageBackground">
+                    <source src="Videos/homepageBackground.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="col-md-1 right-menu"> Right Menu (Social Media / Blog) 
+            
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--Javascript Script References-->
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>    
+    <!--Bootstrap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="Bootstrap/bootstrap.min.js"></script>
+</body>
+</html>

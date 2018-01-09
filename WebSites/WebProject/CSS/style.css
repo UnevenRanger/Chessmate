@@ -1,0 +1,39 @@
+﻿body
+{
+    background-color: gray;
+}
+
+/*Homepage Elements*/
+
+/*Homepage - Left Menu*/
+.left-menu
+{
+    background-color: gray;
+}
+
+.left-menu-item
+{
+    border: 0.5px solid black;
+}
+
+.left-menu-item:hover
+{
+    background-color: aqua;
+}
+
+/*Homepage - Center Video*/
+#homepageVideo 
+{
+    
+}
+
+/*Homepage - Right Menu*/
+.right-menu {
+    background-color: gray;
+}
+
+.right-menu-item {
+    border: 0.5px solid black;
+}
+
+

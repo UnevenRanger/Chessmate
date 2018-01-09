@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Character Set-->
+    <meta charset="utf-8" />
+
+    <!--Page Title-->
+    <title>ChessMate</title>
+
+    <!--Install Bootstap-->
+    <link href="Bootstrap/bootstrap.min.css" rel="stylesheet" />
+
+    <!--Cascading Style Sheet Reference-->
+    <link href="CSS/gameStyle.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+        <h3> Chessmate </h3>
+    </header>
+
+    <div id="chessboard"></div>
+
+    <div id="EngineOutput">
+        <button type="button" id="NewGameButton" onclick=window.location.href="chessGame.html">New Game</button>
+    </div>
+    
+
+    <script src="Javascript/MiscFunctions/jquery-3.2.1.min.js"></script>
+    <script src="Javascript/MiscFunctions/definitions.js"></script>
+    <script src="Javascript/MiscFunctions/functions.js"></script>
+    <script src="Javascript/MiscFunctions/io.js"></script>
+    <script src="Javascript/BoardGeneration/board.js"></script>
+    <script src="Javascript/PieceMovement/makemove.js"></script>
+    <script src="Javascript/PieceMovement/PlayerMove.js"></script>
+    <script src="Javascript/PieceMovement/movegen.js"></script>
+    <script src="Javascript/ChessEngine/pvtable.js"></script>
+    <script src="Javascript/ChessEngine/evaluate.js"></script>
+    <script src="Javascript/ChessEngine/search.js"></script>
+    <script src="Javascript/main.js"></script>
+</body>
+</html>
